@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 11/21/2018, 20:22:20
+      Time of this report: 11/22/2018, 19:34:56
              Machine name: DESKTOP-27PR0E6
                Machine Id: {4E4D8C5C-B227-445B-BFD4-A5E68F034EA3}
          Operating System: Windows 10 Home 64-bit (10.0, Build 17134) (17134.rs4_release.180410-1804)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz (8 CPUs), ~3.4GHz
                    Memory: 28672MB RAM
       Available OS Memory: 28624MB RAM
-                Page File: 6613MB used, 26362MB available
+                Page File: 6000MB used, 26974MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -72,9 +72,9 @@ Display Devices
 Monitor Capabilities: HDR Not Supported
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
       Advanced Color: Not Supported
-         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvldumdx.dll
- Driver File Version: 24.21.0013.9907 (English)
-      Driver Version: 24.21.13.9907
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvldumdx.dll
+ Driver File Version: 25.21.0014.1694 (English)
+      Driver Version: 25.21.14.1694
          DDI Version: 12
       Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
         Driver Model: WDDM 2.4
@@ -87,15 +87,15 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
           Block List: No Blocks
   Catalog Attributes: Universal:False Declarative:False 
    Driver Attributes: Final Retail
-    Driver Date/Size: 2018-08-21 01:00:00, 954112 bytes
+    Driver Date/Size: 2018-11-12 01:00:00, 957800 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
-   Device Identifier: {D7B71E3E-58C0-11CF-6151-6F131BC2D535}
+   Device Identifier: {D7B71E3E-58C0-11CF-4C71-6C131BC2D435}
            Vendor ID: 0x10DE
            Device ID: 0x1B80
            SubSys ID: 0x33621462
          Revision ID: 0x00A1
-  Driver Strong Name: oem104.inf:0f066de361856a84:Section102:24.21.13.9907:pci\ven_10de&dev_1b80
+  Driver Strong Name: oem102.inf:0f066de361856a84:Section108:25.21.14.1694:pci\ven_10de&dev_1b80
       Rank Of Driver: 00D12001
          Video Accel: 
          DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  DXVA2_ModeVP9_VLD_Profile0  
@@ -157,7 +157,7 @@ Sound Devices
 -------------
             Description: Speakers (Realtek High Definition Audio)
  Default Sound Playback: Yes
- Default Voice Playback: No
+ Default Voice Playback: Yes
             Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_17AA3641&REV_1003
         Manufacturer ID: 1
              Product ID: 100
@@ -169,31 +169,6 @@ Sound Devices
           Date and Size: 2016-05-17 00:00:00, 5098776 bytes
             Other Files: 
         Driver Provider: Realtek Semiconductor Corp.
-         HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
- Static/Strm HW 3D Bufs: 0, 0
-              HW Memory: 0
-       Voice Management: No
- EAX(tm) 2.0 Listen/Src: No, No
-   I3DL2(tm) Listen/Src: No, No
-Sensaura(tm) ZoomFX(tm): No
-
-            Description: Acer XB270H (2- High Definition Audio Device)
- Default Sound Playback: No
- Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0083&SUBSYS_14623362&REV_1001
-        Manufacturer ID: 1
-             Product ID: 65535
-                   Type: WDM
-            Driver Name: HdAudio.sys
-         Driver Version: 10.00.17134.0001 (English)
-      Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 2018-09-07 00:00:00, 436736 bytes
-            Other Files: 
-        Driver Provider: Microsoft
          HW Accel Level: Basic
               Cap Flags: 0xF1F
     Min/Max Sample Rate: 100, 200000
@@ -219,6 +194,31 @@ Sensaura(tm) ZoomFX(tm): No
           Date and Size: 2016-05-17 00:00:00, 5098776 bytes
             Other Files: 
         Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Acer XB270H (NVIDIA High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0083&SUBSYS_14623362&REV_1001
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: nvhda64v.sys
+         Driver Version: 1.03.0038.0004 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 2018-10-22 00:00:00, 227896 bytes
+            Other Files: 
+        Driver Provider: NVIDIA Corporation
          HW Accel Level: Basic
               Cap Flags: 0xF1F
     Min/Max Sample Rate: 100, 200000
@@ -316,45 +316,6 @@ USB Devices
 | Driver: USBHUB3.SYS, 8/3/2018 04:40:43, 566568 bytes
 | 
 +-+ USB-enhet (sammansatt)
-| | Vendor/Product ID: 0x1EA7, 0x1006
-| | Location: Port_#0009.Hub_#0001
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 4/12/2018 00:33:52, 168864 bytes
-| | 
-| +-+ USB-enhet
-| | | Vendor/Product ID: 0x1EA7, 0x1006
-| | | Location: 0000.0014.0000.009.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 4/12/2018 00:33:52, 42496 bytes
-| | | Driver: hidclass.sys, 4/12/2018 00:33:52, 173568 bytes
-| | | Driver: hidparse.sys, 6/8/2018 10:01:36, 46080 bytes
-| | | 
-| | +-+ HID-kompatibel mus
-| | | | Vendor/Product ID: 0x1EA7, 0x1006
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | | Service: mouhid
-| | | | Driver: mouhid.sys, 4/12/2018 00:33:52, 33280 bytes
-| | | | Driver: mouclass.sys, 4/12/2018 00:33:52, 56728 bytes
-| | | 
-| +-+ USB-enhet
-| | | Vendor/Product ID: 0x1EA7, 0x1006
-| | | Location: 0000.0014.0000.009.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 4/12/2018 00:33:52, 42496 bytes
-| | | Driver: hidclass.sys, 4/12/2018 00:33:52, 173568 bytes
-| | | Driver: hidparse.sys, 6/8/2018 10:01:36, 46080 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x1EA7, 0x1006
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 4/12/2018 00:33:52, 40448 bytes
-| | | | Driver: kbdclass.sys, 4/12/2018 00:33:52, 63904 bytes
-| | 
-+-+ USB-enhet (sammansatt)
 | | Vendor/Product ID: 0x1532, 0x021E
 | | Location: Port_#0010.Hub_#0001
 | | Matching Device ID: USB\COMPOSITE
@@ -416,6 +377,45 @@ USB Devices
 | | | | Driver: rzudd.sys, 8/17/2016 22:57:16, 204304 bytes
 | | | | Driver: mouhid.sys, 4/12/2018 00:33:52, 33280 bytes
 | | | | Driver: mouclass.sys, 4/12/2018 00:33:52, 56728 bytes
+| | 
++-+ USB-enhet (sammansatt)
+| | Vendor/Product ID: 0x1EA7, 0x1006
+| | Location: Port_#0009.Hub_#0001
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 4/12/2018 00:33:52, 168864 bytes
+| | 
+| +-+ USB-enhet
+| | | Vendor/Product ID: 0x1EA7, 0x1006
+| | | Location: 0000.0014.0000.009.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 4/12/2018 00:33:52, 42496 bytes
+| | | Driver: hidclass.sys, 4/12/2018 00:33:52, 173568 bytes
+| | | Driver: hidparse.sys, 6/8/2018 10:01:36, 46080 bytes
+| | | 
+| | +-+ HID-kompatibel mus
+| | | | Vendor/Product ID: 0x1EA7, 0x1006
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | | Service: mouhid
+| | | | Driver: mouhid.sys, 4/12/2018 00:33:52, 33280 bytes
+| | | | Driver: mouclass.sys, 4/12/2018 00:33:52, 56728 bytes
+| | | 
+| +-+ USB-enhet
+| | | Vendor/Product ID: 0x1EA7, 0x1006
+| | | Location: 0000.0014.0000.009.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 4/12/2018 00:33:52, 42496 bytes
+| | | Driver: hidclass.sys, 4/12/2018 00:33:52, 173568 bytes
+| | | Driver: hidparse.sys, 6/8/2018 10:01:36, 46080 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x1EA7, 0x1006
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 4/12/2018 00:33:52, 40448 bytes
+| | | | Driver: kbdclass.sys, 4/12/2018 00:33:52, 63904 bytes
 
 ----------------
 Gameport Devices
@@ -429,13 +429,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 11.4 GB
+ Free Space: 11.9 GB
 Total Space: 113.1 GB
 File System: NTFS
       Model: SAMSUNG MZ7LF120HCHP-000L1
 
       Drive: D:
- Free Space: 364.0 GB
+ Free Space: 357.1 GB
 Total Space: 922.6 GB
 File System: NTFS
       Model: ST1000DX001-SSHD-8GB
@@ -457,82 +457,92 @@ Device ID: PCI\VEN_8086&DEV_1901&SUBSYS_364117AA&REV_07\3&11583659&1&08
 
      Name: NVIDIA GeForce GTX 1080
 Device ID: PCI\VEN_10DE&DEV_1B80&SUBSYS_33621462&REV_A1\4&6BF6FDD&0&0008
-   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\dbInstaller.exe, 24.21.0013.9907 (English), 8/22/2018 17:13:06, 475024 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\nvdrsdb.bin, 8/21/2018 13:16:53, 1523704 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\NvContainerSetup.exe, 1.00.0007.0000 (Swedish), 8/22/2018 17:13:42, 4432400 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\NvCplSetupInt.exe, 1.00.0007.0000 (Swedish), 8/22/2018 17:13:44, 101322696 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0224 (English), 8/22/2018 17:13:50, 30552 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvd3d9wrap.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:08, 230264 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:28, 155792 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0224 (English), 8/22/2018 17:13:50, 30264 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvd3d9wrapx.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:10, 273544 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:28, 183352 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\dbInstaller.exe, 25.21.0014.1694 (English), 11/13/2018 20:02:44, 731776 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\nvdrsdb.bin, 11/13/2018 04:23:53, 1546448 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\NvContainerSetup.exe, 1.00.0007.0000 (Swedish), 11/13/2018 20:03:28, 4431152 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\NvCplSetupInt.exe, 1.00.0007.0000 (Swedish), 11/13/2018 20:03:30, 101407176 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0224 (English), 11/13/2018 20:03:36, 29256 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvd3d9wrap.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:24, 230384 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:48, 154680 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0224 (English), 11/13/2018 20:03:36, 29072 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvd3d9wrapx.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:26, 273480 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:48, 182056 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\DisplayDriverRAS.dll, 1.10.0000.0000 (English), 11/13/2018 20:02:44, 2171176 bytes
    Driver: C:\Program Files\NVIDIA Corporation\license.txt, 11/9/2017 03:57:26, 27203 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (Swedish), 8/22/2018 17:13:16, 859536 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.9907 (English), 8/22/2018 17:13:48, 429784 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 8/21/2018 13:16:53, 102809 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.9907 (English), 8/22/2018 17:13:58, 528152 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.9907 (English), 8/22/2018 17:14:08, 938344 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\OpenCL32.dll, 2.02.0001.0000 (English), 8/22/2018 17:14:46, 456552 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\OpenCL64.dll, 2.02.0001.0000 (English), 8/22/2018 17:14:46, 552400 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvlddmkm.sys, 24.21.0013.9907 (English), 8/22/2018 17:14:06, 17212744 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nv-vk64.json, 8/21/2018 13:16:53, 669 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvcbl64.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:26, 1816328 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvd3dumx.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:14, 19334408 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvd3dumx_cfg.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:18, 19740864 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvdlistx.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:26, 196000 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvinitx.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:38, 210576 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvldumdx.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:40, 954112 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvoglshim64.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:42, 185400 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvoglv64.dll, 24.21.0013.9907 (English), 8/22/2018 17:14:16, 40239464 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvrtum64.dll, 8/22/2018 17:14:26, 19923512 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvumdshimx.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:02, 592808 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvwgf2umx.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:10, 34221208 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvwgf2umx_cfg.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:18, 35209824 bytes
-   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0013.9907 (English), 8/22/2018 17:13:54, 1564496 bytes
-   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0013.9907 (English), 8/22/2018 17:14:02, 1420648 bytes
-   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 24.21.0013.9907 (English), 8/22/2018 17:14:02, 628560 bytes
-   Driver: C:\WINDOWS\system32\nvDecMFTMjpeg.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:48, 751264 bytes
-   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:30, 1350792 bytes
-   Driver: C:\WINDOWS\system32\nvEncMFThevc.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:32, 1360312 bytes
-   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:34, 817800 bytes
-   Driver: C:\WINDOWS\system32\nvapi64.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:02, 4858000 bytes
-   Driver: C:\WINDOWS\system32\nvcompiler.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:34, 40348400 bytes
-   Driver: C:\WINDOWS\system32\nvcuda.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:06, 17756392 bytes
-   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0013.9907 (English), 8/22/2018 17:13:46, 4354208 bytes
-   Driver: C:\WINDOWS\system32\nvfatbinaryLoader.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:36, 1160520 bytes
-   Driver: C:\WINDOWS\system32\nvinfo.pb, 8/21/2018 13:16:53, 44335 bytes
-   Driver: C:\WINDOWS\system32\nvmcumd.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:40, 637376 bytes
-   Driver: C:\WINDOWS\system32\nvopencl.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:50, 31252104 bytes
-   Driver: C:\WINDOWS\system32\nvptxJitCompiler.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:58, 13733544 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nv-vk32.json, 8/21/2018 13:16:53, 669 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvd3dum.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:10, 15891440 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvd3dum_cfg.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:22, 16227384 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvdlist.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:26, 170368 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvinit.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:36, 184048 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvldumd.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:38, 796696 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvoglshim32.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:42, 157328 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvoglv32.dll, 24.21.0013.9907 (English), 8/22/2018 17:14:10, 32495432 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvumdshim.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:00, 509688 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvwgf2um.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:04, 28862072 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\nvwgf2um_cfg.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:26, 29937576 bytes
-   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0013.9907 (English), 8/22/2018 17:13:54, 1218056 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0013.9907 (English), 8/22/2018 17:14:00, 1093640 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 24.21.0013.9907 (English), 8/22/2018 17:14:02, 518832 bytes
-   Driver: C:\WINDOWS\SysWow64\nvDecMFTMjpeg.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:48, 609496 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:28, 1067288 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncMFThevc.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:30, 1072976 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:32, 656352 bytes
-   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:00, 4128112 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 24.21.0013.9907 (English), 8/22/2018 17:13:26, 35251600 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:02, 15170608 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0013.9907 (English), 8/22/2018 17:13:44, 3770072 bytes
-   Driver: C:\WINDOWS\SysWow64\nvfatbinaryLoader.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:34, 908032 bytes
-   Driver: C:\WINDOWS\SysWow64\nvopencl.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:44, 25967968 bytes
-   Driver: C:\WINDOWS\SysWow64\nvptxJitCompiler.dll, 24.21.0013.9907 (English), 8/22/2018 17:12:56, 11277848 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_f5be1f8d25335236\VulkanRT-Installer.exe, 1.01.0077.0000 (English), 8/22/2018 17:14:48, 1056928 bytes
-   Driver: C:\WINDOWS\system32\nvdispco6439907.dll, 2.00.0053.0004 (English), 8/22/2018 17:13:52, 2016600 bytes
-   Driver: C:\WINDOWS\system32\nvdispgenco6439907.dll, 2.00.0026.0002 (English), 8/22/2018 17:13:52, 1469144 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (Swedish), 11/13/2018 20:02:54, 858592 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0014.1694 (English), 11/13/2018 20:03:34, 448456 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 11/13/2018 04:23:53, 104218 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0014.1694 (English), 11/13/2018 20:03:44, 538568 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0014.1694 (English), 11/13/2018 20:04:06, 960600 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvopencl32.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:14, 29975480 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvopencl64.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:22, 35301360 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvlddmkm.sys, 25.21.0014.1694 (English), 11/13/2018 20:04:00, 20371952 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nv-vk64.json, 11/13/2018 04:23:53, 669 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvcbl64.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:12, 489688 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvd3dumx.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:30, 21118024 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvd3dumx_cfg.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:38, 21556696 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvdlistx.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:46, 194704 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvinitx.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:04, 208904 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvldumdx.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:08, 957800 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvofapi.dll, 11/13/2018 20:04:08, 519296 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvoglshim64.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:12, 184088 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvoglv64.dll, 25.21.0014.1694 (English), 11/13/2018 20:04:16, 40146744 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvoptix.dll, 5.02.0000.0000 (English), 11/13/2018 20:04:24, 48639376 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvrtum64.dll, 25.21.0014.1694 (English), 11/13/2018 20:04:32, 20469584 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvumdshimx.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:36, 602048 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvwgf2umx.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:44, 37378712 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvwgf2umx_cfg.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:54, 38367264 bytes
+   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0014.1694 (English), 11/13/2018 20:03:40, 2000000 bytes
+   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0014.1694 (English), 11/13/2018 20:03:52, 1457096 bytes
+   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:52, 631776 bytes
+   Driver: C:\WINDOWS\system32\OpenCL.dll, 2.02.0001.0000 (English), 11/13/2018 20:04:52, 552272 bytes
+   Driver: C:\WINDOWS\system32\nvDecMFTMjpeg.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:36, 750024 bytes
+   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:50, 1462216 bytes
+   Driver: C:\WINDOWS\system32\nvEncMFThevc.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:52, 1471616 bytes
+   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:54, 794824 bytes
+   Driver: C:\WINDOWS\system32\nvapi64.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:14, 4992328 bytes
+   Driver: C:\WINDOWS\system32\nvcompiler.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:22, 40254240 bytes
+   Driver: C:\WINDOWS\system32\nvcuda.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:20, 19709024 bytes
+   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0014.1694 (English), 11/13/2018 20:03:32, 4941440 bytes
+   Driver: C:\WINDOWS\system32\nvfatbinaryLoader.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:56, 1167776 bytes
+   Driver: C:\WINDOWS\system32\nvinfo.pb, 11/13/2018 04:23:53, 48138 bytes
+   Driver: C:\WINDOWS\system32\nvmcumd.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:10, 822576 bytes
+   Driver: C:\WINDOWS\system32\nvptxJitCompiler.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:32, 15908696 bytes
+   Driver: C:\WINDOWS\system32\vulkan-1-999-0-0-0.dll, 1.01.0082.0000 (English), 11/13/2018 20:04:54, 978336 bytes
+   Driver: C:\WINDOWS\system32\vulkan-1.dll, 1.01.0082.0000 (English), 11/13/2018 20:04:54, 978336 bytes
+   Driver: C:\WINDOWS\system32\vulkaninfo-1-999-0-0-0.exe, 1.01.0082.0000 (English), 11/13/2018 20:04:58, 268176 bytes
+   Driver: C:\WINDOWS\system32\vulkaninfo.exe, 1.01.0082.0000 (English), 11/13/2018 20:04:58, 268176 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nv-vk32.json, 11/13/2018 04:23:53, 669 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvd3dum.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:26, 17505680 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvd3dum_cfg.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:42, 17861320 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvdlist.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:46, 169072 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvinit.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:00, 182368 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvldumd.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:08, 798600 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvoglshim32.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:10, 155832 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvoglv32.dll, 25.21.0014.1694 (English), 11/13/2018 20:04:08, 29852248 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvumdshim.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:34, 518416 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvwgf2um.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:38, 31997472 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_6992f55a2cc4b209\nvwgf2um_cfg.dll, 25.21.0014.1694 (English), 11/13/2018 20:04:04, 33074912 bytes
+   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0014.1694 (English), 11/13/2018 20:03:40, 1509160 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0014.1694 (English), 11/13/2018 20:03:50, 1124648 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:52, 521672 bytes
+   Driver: C:\WINDOWS\SysWow64\OpenCL.dll, 2.02.0001.0000 (English), 11/13/2018 20:04:52, 457328 bytes
+   Driver: C:\WINDOWS\SysWow64\nvDecMFTMjpeg.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:34, 609056 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:48, 1145912 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncMFThevc.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:50, 1152176 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:52, 637672 bytes
+   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:12, 4252824 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:14, 35151560 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:16, 16986448 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0014.1694 (English), 11/13/2018 20:03:30, 4313568 bytes
+   Driver: C:\WINDOWS\SysWow64\nvfatbinaryLoader.dll, 25.21.0014.1694 (English), 11/13/2018 20:02:54, 914776 bytes
+   Driver: C:\WINDOWS\SysWow64\nvptxJitCompiler.dll, 25.21.0014.1694 (English), 11/13/2018 20:03:28, 13203400 bytes
+   Driver: C:\WINDOWS\SysWow64\vulkan-1-999-0-0-0.dll, 1.01.0082.0000 (English), 11/13/2018 20:04:54, 845216 bytes
+   Driver: C:\WINDOWS\SysWow64\vulkan-1.dll, 1.01.0082.0000 (English), 11/13/2018 20:04:54, 845216 bytes
+   Driver: C:\WINDOWS\SysWow64\vulkaninfo-1-999-0-0-0.exe, 1.01.0082.0000 (English), 11/13/2018 20:05:00, 243616 bytes
+   Driver: C:\WINDOWS\SysWow64\vulkaninfo.exe, 1.01.0082.0000 (English), 11/13/2018 20:05:00, 243616 bytes
+   Driver: C:\WINDOWS\system32\nvdispco6441694.dll, 2.00.0053.0004 (English), 11/13/2018 20:03:38, 2017736 bytes
+   Driver: C:\WINDOWS\system32\nvdispgenco6441694.dll, 2.00.0027.0002 (English), 11/13/2018 20:03:38, 1468032 bytes
 
      Name: High Definition Audio Controller
 Device ID: PCI\VEN_8086&DEV_A170&SUBSYS_364117AA&REV_31\3&11583659&1&FB
@@ -724,11 +734,12 @@ WDM Streaming Capture Devices:
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.17134.0001
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.17134.0001
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.17134.0001
+,0x00000000,0,0,,
 
 WDM Streaming Rendering Devices:
-HD Audio HDMI out 3,0x00200000,1,1,ksproxy.ax,10.00.17134.0001
 Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.17134.0001
 Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,10.00.17134.0001
+,0x00000000,0,0,,
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.17134.0001
@@ -757,11 +768,11 @@ Audio Renderers:
 Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17134.0001
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.17134.0001
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.17134.0001
-DirectSound: Acer XB270H (2- High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.17134.0001
 DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17134.0001
+DirectSound: Acer XB270H (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17134.0001
 DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17134.0001
-Acer XB270H (2- High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.17134.0001
 Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17134.0001
+Acer XB270H (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.17134.0001
 
 
 ----------------------------
@@ -834,7 +845,7 @@ Media Foundation Transforms
   <transform friendly name>, <transform CLSID>, <flags>, [<merit>, ]<file name>, <file version>
 
 Video Decoders:
-  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 24.21.0013.9907
+  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 25.21.0014.1694
   Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.17134.0407
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.17134.0001
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.17134.0001
@@ -847,8 +858,8 @@ Video Decoders:
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.17134.0001
   HEVCVideoExtension
 Video Encoders:
-  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 24.21.0013.9907
-  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 24.21.0013.9907
+  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 25.21.0014.1694
+  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 25.21.0014.1694
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.17134.0001
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.17134.0001
   Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.17134.0191
@@ -1168,6 +1179,205 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+Fel-bucket 1325520877673343089, typ 1
+Händelsenamn: APPCRASH
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: wallpaper32.exe
+P2: 1.0.0.0
+P3: 5bd9ea57
+P4: d3d11.dll
+P5: 10.0.17134.407
+P6: 66571947
+P7: c0000005
+P8: 00166668
+P9: 
+P10: 
+
+Bifogade filer:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER8361.tmp.mdmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER843D.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER844E.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER844E.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER847E.tmp.txt
+
+Filerna kan vara tillgängliga här:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_wallpaper32.exe_72bb3ce6af1c4b83d32a6f41255d79f2220139_4b884d32_23a88d16
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 460798a8-7abd-4e9e-ab0c-c316c03450da
+Rapportstatus: 268435456
+Hash-bucket: fb661d7b0353a8e19265323720156871
+Cab-GUID: 0
++++ WER1 +++:
+Fel-bucket , typ 0
+Händelsenamn: PnPDriverImportError
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: x64
+P2: 00000002
+P3: nvppc.inf
+P4: unknown
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Bifogade filer:
+\\?\C:\Users\andre\AppData\Local\Temp\DMI3CD3.tmp.log.xml
+\\?\C:\Users\andre\AppData\Local\Temp\LOG3CE4.tmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3CE5.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3CF5.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3D02.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3D22.tmp.txt
+
+Filerna kan vara tillgängliga här:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_e4354f77a214a790db19b4c08364302789a5538f_00000000_3f6c41c5
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 9bcba881-0a9c-49bd-9973-61760085d5d6
+Rapportstatus: 2147491840
+Hash-bucket: 
+Cab-GUID: 0
++++ WER2 +++:
+Fel-bucket , typ 0
+Händelsenamn: PnPDriverImportError
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: x64
+P2: 00000002
+P3: nvppc.inf
+P4: unknown
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Bifogade filer:
+\\?\C:\Users\andre\AppData\Local\Temp\DMI3CD3.tmp.log.xml
+\\?\C:\Users\andre\AppData\Local\Temp\LOG3CE4.tmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3CE5.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3CF5.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3D02.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER3D22.tmp.txt
+
+Filerna kan vara tillgängliga här:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_e4354f77a214a790db19b4c08364302789a5538f_00000000_cab_2f443d31
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 9bcba881-0a9c-49bd-9973-61760085d5d6
+Rapportstatus: 4
+Hash-bucket: 
+Cab-GUID: 0
++++ WER3 +++:
+Fel-bucket 68605386, typ 5
+Händelsenamn: ShellBrowserCancel
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: {B2952B16-0E07-4E5A-B993-58C52CB94CAE}
+P2: Local
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Bifogade filer:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERDF1.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE11.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE20.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE4F.tmp.txt
+
+Filerna kan vara tillgängliga här:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_{B2952B16-0E07-4_a49898835df31885e3ec2e929134b46ae88cf340_00000000_30221515
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 1d5867ef-f1b8-4a3b-9c70-b4b3d432f88a
+Rapportstatus: 268435456
+Hash-bucket: a0e8becf5a3c4aa5a52339c07f501cea
+Cab-GUID: 0
++++ WER4 +++:
+Fel-bucket , typ 0
+Händelsenamn: ShellBrowserCancel
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: {B2952B16-0E07-4E5A-B993-58C52CB94CAE}
+P2: Local
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Bifogade filer:
+
+Filerna kan vara tillgängliga här:
+
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 1d5867ef-f1b8-4a3b-9c70-b4b3d432f88a
+Rapportstatus: 262148
+Hash-bucket: 
+Cab-GUID: 0
++++ WER5 +++:
+Fel-bucket , typ 0
+Händelsenamn: ShellBrowserCancel
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: {B2952B16-0E07-4E5A-B993-58C52CB94CAE}
+P2: Local
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Bifogade filer:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERDF1.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE11.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE20.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE4F.tmp.txt
+
+Filerna kan vara tillgängliga här:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_{B2952B16-0E07-4_a49898835df31885e3ec2e929134b46ae88cf340_00000000_cab_0a920e5e
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 1d5867ef-f1b8-4a3b-9c70-b4b3d432f88a
+Rapportstatus: 4
+Hash-bucket: 
+Cab-GUID: 0
++++ WER6 +++:
 Fel-bucket , typ 0
 Händelsenamn: AppHangB1
 Svar: Inte tillgänglig
@@ -1201,7 +1411,7 @@ Rapport-ID: 90d8065d-c380-430b-9c20-705a09f1baf0
 Rapportstatus: 97
 Hash-bucket: 
 Cab-GUID: 0
-+++ WER1 +++:
++++ WER7 +++:
 Fel-bucket 1995641540695749843, typ 4
 Händelsenamn: APPCRASH
 Svar: Inte tillgänglig
@@ -1235,7 +1445,7 @@ Rapport-ID: 5bcf9798-2bcd-4cb2-a394-7a7715d0389a
 Rapportstatus: 268435456
 Hash-bucket: c6a8a513c58b63186bb1f1686c2ef4d3
 Cab-GUID: 0
-+++ WER2 +++:
++++ WER8 +++:
 Fel-bucket 1662113573601264214, typ 4
 Händelsenamn: APPCRASH
 Svar: Inte tillgänglig
@@ -1269,7 +1479,7 @@ Rapport-ID: aad6a22f-9707-4946-92a6-5136da165830
 Rapportstatus: 268435456
 Hash-bucket: d9066fcac3531cd09711037d2adbc256
 Cab-GUID: 0
-+++ WER3 +++:
++++ WER9 +++:
 Fel-bucket 1444471259312728406, typ 5
 Händelsenamn: RADAR_PRE_LEAK_64
 Svar: Inte tillgänglig
@@ -1302,220 +1512,4 @@ Kontrollerar lösning igen: 0
 Rapport-ID: b11fdce1-f106-4b0f-bc5e-3a328e90a74f
 Rapportstatus: 268435456
 Hash-bucket: c334304dee5d351c340bcaf50b98a956
-Cab-GUID: 0
-+++ WER4 +++:
-Fel-bucket 1424918797988125872, typ 4
-Händelsenamn: APPCRASH
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: FbService.exe
-P2: 3.0.0.1
-P3: 5591024d
-P4: StackHash_bd1f
-P5: 10.0.17134.376
-P6: 60d78cf9
-P7: c0000374
-P8: PCH_FC_FROM_ntdll+0x000000000009AA54
-P9: 
-P10: 
-
-Bifogade filer:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2C5A.tmp.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2ECC.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2EDD.tmp.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2EEA.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2EFB.tmp.txt
-
-Filerna kan vara tillgängliga här:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_FbService.exe_888692ef47fcce720ed8d93f7c2e4a6dbf57494_daf0adfb_37f534d6
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: e1cabdb8-3d01-45bb-9b6a-ef5c2501835f
-Rapportstatus: 268435456
-Hash-bucket: c30a83bdf2ed0d0563c65418e3dbdcb0
-Cab-GUID: 0
-+++ WER5 +++:
-Fel-bucket 1261222878053873732, typ 5
-Händelsenamn: RADAR_PRE_LEAK_64
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: HITMAN2.exe
-P2: 2.10.1.0
-P3: 10.0.17134.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Bifogade filer:
-\\?\C:\Users\andre\AppData\Local\Temp\RDR2BFA.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2C0B.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2C1B.tmp.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2C39.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2C59.tmp.txt
-
-Filerna kan vara tillgängliga här:
-
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 490b6873-06ac-40ab-991f-fe0af594eb54
-Rapportstatus: 268435456
-Hash-bucket: 969a4bc1c53b80175180c3867cff3844
-Cab-GUID: 0
-+++ WER6 +++:
-Fel-bucket 1406455163490853346, typ 5
-Händelsenamn: AppHangB1
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: explorer.exe
-P2: 10.0.17134.165
-P3: 4031a9f8
-P4: 1347
-P5: 134217728
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Bifogade filer:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5695.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER56B5.tmp.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER56BC.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER56DC.tmp.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WER5762.tmp.appcompat.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WER5782.tmp.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_34a4582b\triagedump.dmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_34a4582b\memory.hdmp
-
-Filerna kan vara tillgängliga här:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_32786f1e
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 1eb8abdd-2acc-46cd-aac4-5569ac200004
-Rapportstatus: 268435456
-Hash-bucket: 5862b832462079635384bb84fc62e1e2
-Cab-GUID: 0
-+++ WER7 +++:
-Fel-bucket , typ 0
-Händelsenamn: AppHangB1
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: explorer.exe
-P2: 10.0.17134.165
-P3: 4031a9f8
-P4: 1347
-P5: 134217728
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Bifogade filer:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5695.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER56B5.tmp.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER56BC.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER56DC.tmp.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WER5762.tmp.appcompat.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WER5782.tmp.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_34a4582b\triagedump.dmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_34a4582b\memory.hdmp
-
-Filerna kan vara tillgängliga här:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_34a4582b
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 1eb8abdd-2acc-46cd-aac4-5569ac200004
-Rapportstatus: 4
-Hash-bucket: 
-Cab-GUID: 0
-+++ WER8 +++:
-Fel-bucket 1406455163490853346, typ 5
-Händelsenamn: AppHangB1
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: explorer.exe
-P2: 10.0.17134.165
-P3: 4031a9f8
-P4: 1347
-P5: 134217728
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Bifogade filer:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAB7.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAC7.tmp.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERACC.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAED.tmp.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WERB74.tmp.appcompat.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WERB85.tmp.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_41600c4d\triagedump.dmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_41600c4d\memory.hdmp
-
-Filerna kan vara tillgängliga här:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_33e4261e
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 9ff5b629-ade7-4b3d-af2d-8aec200bbf97
-Rapportstatus: 268435456
-Hash-bucket: 5862b832462079635384bb84fc62e1e2
-Cab-GUID: 0
-+++ WER9 +++:
-Fel-bucket , typ 0
-Händelsenamn: AppHangB1
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: explorer.exe
-P2: 10.0.17134.165
-P3: 4031a9f8
-P4: 1347
-P5: 134217728
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Bifogade filer:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAB7.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAC7.tmp.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERACC.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAED.tmp.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WERB74.tmp.appcompat.txt
-\\?\C:\Users\andre\AppData\Local\Temp\WERB85.tmp.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_41600c4d\triagedump.dmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_41600c4d\memory.hdmp
-
-Filerna kan vara tillgängliga här:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppHang_explorer.exe_b325712012f15923bab4cce8a44561fe47ae9b6_f1ad6d8a_cab_41600c4d
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 9ff5b629-ade7-4b3d-af2d-8aec200bbf97
-Rapportstatus: 4
-Hash-bucket: 
 Cab-GUID: 0
